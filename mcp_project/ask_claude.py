@@ -5,6 +5,7 @@ import argparse
 import json
 from claude_mcp_client import ClaudeClient
 
+
 def check_mcp_server():
     mcp_url = os.environ.get("MCP_SERVER_URL", "http://localhost:5001")
     try:
